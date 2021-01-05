@@ -1,25 +1,30 @@
 {
   "name": "bern-cli",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "version": "0.0.1",
+  "description": "基于vueCli4的的vue项目开发环境，通过init projectName 快速生成项目 ",
   "bin": {
-    "bern": "./bin/bern.js"
+    "bern": "./main.js"
   },
+  "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "vue-admin",
+    "vue",
+    "vue-cli",
+    "create"
+  ],
+  "private": false,
+  "author": "wh",
   "license": "ISC",
+  "devDependencies": {},
   "dependencies": {
-    "chalk": "^4.1.0",
-    "commander": "^6.2.1",
+    "chalk": "^4.0.0",
+    "commander": "^5.0.0",
     "download-git-repo": "^3.0.2",
-    "fs": "0.0.1-security",
     "handlebars": "^4.7.6",
-    "inquirer": "^7.3.3",
-    "ora": "^5.2.0",
-    "path": "^0.12.7"
+    "inquirer": "^7.1.0",
+    "ora": "^4.0.4"
   }
 }
