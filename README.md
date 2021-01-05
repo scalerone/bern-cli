@@ -14,3 +14,6 @@
 `npm install -g bern`  
 拉取模板进行初始化
 `bern init projectName` 
+
+# 升级版
+升级版代码请切换dev分支
