@@ -1,7 +1,7 @@
 # bern-cli
 一个简单的前端脚手架
 
-# 内容
+# 功能点
 1. 通过commander实现命令行的交互
 2. 通过download-git-repo实现仓库代码的拉取
 3. 通过inquirer实现配置的选择和相关项的填写，实现可选配置
@@ -12,8 +12,11 @@
 # 使用
 全局安装
 `npm install -g bern`  
+项目介绍
+`bern info` 
 拉取模板进行初始化
 `bern init projectName` 
+
 
 # 升级版
 升级版代码请切换dev分支
