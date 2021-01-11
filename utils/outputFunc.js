@@ -3,7 +3,7 @@ const projectSuccess = function(projectName){
     console.log(
         chalk.greenBright("开启项目") + '\n' +
         chalk.greenBright("cd " + projectName) + '\n' +
-        chalk.greenBright("npm run dev"));
+        chalk.greenBright("npm run serve"));
 }
 const noPackageJSON = function(){
     console.log(chalk.red("failed! 没有package.json"));
