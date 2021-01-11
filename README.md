@@ -11,7 +11,7 @@
 
 # 使用
 全局安装
-`npm install -g bern`  
+`npm install -g bern-cli`  
 项目介绍
 `bern info` 
 拉取模板进行初始化
